@@ -1,0 +1,452 @@
+//控制多选框显示隐藏
+.none{
+    display: none;
+}
+.block{
+    display: block;
+}
+.inlineblock{
+    display: inline-block;
+}
+.ftColor{
+    color:#1890FF ;
+}
+.cursor{
+    cursor: pointer;
+}
+.asterisk{ // 红色星号*
+    color:#f00;
+    margin:5px;
+}
+//列表页
+.content-main{
+    width: 100%;
+    padding: 15px;
+    margin: 0 auto;
+    background-color: #fff;
+    border-radius: 8px;
+    .ant-btn{
+        margin-top:8px; 
+    }
+    .content-form{
+        padding-bottom: 10px;
+    }
+    .content-table{
+        padding-top: 0;
+        .make-box{
+            color: #1890ff;
+            .check-btn{
+                padding: 5px 10px 5px 0px;
+            }
+        }
+    }
+    .intro{
+        .text{
+            max-width: 600px;
+            overflow: hidden;
+            white-space: nowrap;
+            text-overflow: ellipsis;
+            display: inline-block;
+        }
+    }
+}
+//详情页
+.detail-main{
+    padding-bottom: 50px;
+    .textNum{
+        width:100%;
+        text-align: right;
+    }
+    .detail-title{
+        font-weight: bold;
+        padding: 0 6px;
+        margin: 10px 0 20px 0;
+        border-left: solid #1890ff 5px;
+        display: inline-block;
+    }
+    .information{
+        display: flex;
+        .information-left{
+            width: 26%;padding-top:5%;
+            .ant-avatar{
+                width:120px;height: 120px;display: block;margin: 40px auto 30px;
+            }
+            .ant-upload.ant-upload-select{
+                text-align: center;display: block;
+            }
+        }
+        .information-right{
+            width: 74%;
+            .ant-form-item-label{
+                text-align: right;
+                padding-right: 15px;
+            }
+        }
+    }
+    .department-main{
+        width: 100%;
+        display: flex;
+        justify-content:space-between;
+        flex-flow: wrap;
+        .department-item{
+            width: 48%;
+            margin: 10px 0;
+            .department-content{
+                background-color: #fff;
+                min-height: 200px;
+                border-radius: 8px;
+                width: 100%;
+                padding: 20px 10%;
+            }
+            .department-content-all{
+                background-color: #fff;
+                min-height: 200px;
+                border-radius: 8px;
+                width: 100%;
+                padding: 20px 10%;
+            }
+        }
+    }
+    
+    .step-contents{
+        margin: 20px 0;
+        // width: 48%;
+        height:200px;
+        overflow-y: scroll;
+        .ant-steps-dot .ant-steps-item-content{
+            width: 80%;
+        }
+        .ant-steps-item .ant-steps-item-icon > .ant-steps-icon .ant-steps-icon-dot{
+            background:rgba(0,0,0,.25)
+        }
+        .ant-steps-item > .ant-steps-item-tail:after{
+            background-color: rgba(0,0,0,.25);
+        }
+        .ant-steps-item > .ant-steps-item-content > .ant-steps-item-description{
+            color: rgba(0, 0, 0, 0.65);
+        }
+        .ant-steps-dot .ant-steps-item-process .ant-steps-item-icon{
+            width: 8px;
+            height: 8px;
+            line-height: 8px;
+        }
+    }
+    .ant-input-group-addon{min-width: 80px;}
+}
+// 班级详情
+.class-detail{
+    .margin30{
+        margin:30px 0;
+    }
+    .addBtn{
+        margin-left: 10px;
+    }
+    .upload-box{
+        text-align: center;
+    }
+    .class-intro{
+        margin-bottom: 20px;
+        .intro-title{
+            width:10%;
+            padding:0 !important;
+            text-align: right;
+            color:#000;
+        }
+    }
+    .classTags{
+        .ant-form-item-label{
+            width:14.5%;
+        }
+        .ant-form-item-control-wrapper{
+            width:85.5%;
+        }
+    }
+    .btn{
+        background-color: #fff;
+        text-align: center;
+        padding:15px 0;
+        position: absolute;;
+        bottom: 0;
+        left: 220px;
+        right: 37px;
+        z-index: 99;
+    }
+}
+// 教师详情页面
+.teacher-detail {
+    .information-right{
+        .first{
+            .personName{
+                .ant-form-item-label{
+                    width:145px !important;
+                }
+            }
+            .ant-calendar-picker{
+                width:100%;
+            }
+        }
+        .labelWidth{
+            .ant-form-item-label{
+                width:145px;
+            }
+        }
+        .usin{
+            padding-right: 0 !important;
+        }
+        .introduce{
+            .ant-form-item-control-wrapper{
+                width:82%;
+            }
+            .ant-form-item{
+                margin-bottom: 0;
+            }
+        }
+        .tags-list{
+            width:82%;
+            margin-left: 148px;
+            border:1px solid #d9d9d9;
+            border-radius: 4px;
+            padding:15px;
+        }
+    }
+    .department-main{
+        .content{
+            background-color: #fff;
+            height: 150px;
+            border-radius: 8px;
+            width: 100%;
+            padding: 20px 0;
+            .depart-text{
+                text-align: right;
+                color: #000;
+                padding-right: 0 !important;
+                p{
+                    line-height: 32px;
+                    .star{
+                        color: #f00;
+                        margin-right: 3px;
+                    }
+                }
+            }
+        }
+    }
+}
+
+// 职务管理详情页
+.job-detail {
+    .information {
+        width:100%;
+        padding-top: 30px;
+        .teacher-form{
+            width:80%;
+            .jobInfo {
+                .ant-row {
+                    margin-bottom: 0;
+                    .ant-form-item-label {
+                        width:13.6%;
+                    }
+                    .ant-form-item-control-wrapper{
+                        width:76.3%;
+                    }
+                }
+            }
+        }
+    }
+    .authority{
+        width: 100%;
+        display: flex;
+        justify-content:space-between;
+        flex-flow: wrap;
+        .department-item{
+            width: 48%;
+            margin: 10px 0;
+            .department-content{
+                background-color: #fff;
+                min-height: 200px;
+                border-radius: 8px;
+                width: 100%;
+                padding: 20px 10%;
+            }
+        }
+        .dataAuth{
+            height:318px;
+        }
+    }
+}
+
+
+.bf-container {
+    border:1px solid #ccc;
+    .bf-content {
+        height:200px;
+    }
+}
+//职务详情
+.job-persons{
+    height: 460px;
+    overflow-y: scroll;
+}
+.job-list{
+    text-align: center;
+    .ant-card-body{
+        padding: 10px;position: relative;
+        .anticon-close{
+            position: absolute;
+            top: 8px;
+            right: 8px;
+            color: #f00;
+        }
+        .ant-avatar{
+            width: 70px;height: 70px;line-height: 70px;
+        }
+        .job-name{font-weight: bold;padding: 10px; }
+    }
+}
+.job-item-active{
+    .ant-card-bordered{
+        border:solid 1px #f00;
+    }
+}
+// 学生详情
+.add-tab{
+    border: dashed 1px #ccc;padding: 6px 12px;margin-top: 20px;display: inline-block;
+}
+.student-close{
+    color: #fff;
+    background: #f00;
+    border-radius: 50%;
+    padding: 4px;margin-top:4px;                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   
+}
+.go-manage{
+    margin-top: 20px;
+    border: solid 1px #ccc;
+    display: inline-block;
+    border-radius: 6px;
+    color: #ccc;
+    padding-left: 10px;
+    border-right: none;
+    .last{
+        color: #fff;
+        background: #1890ff;
+        display: inline-block;
+        border-radius: 6px;
+        padding: 6px 10px;
+        margin-left: 10px;
+    }
+}
+// 部门管理
+.batchAdd-modal{
+    .ant-modal-body{
+        height: 700px;
+        overflow-y: auto;
+    }
+    .selectNum{
+        margin-bottom: 15px;
+        width:100%;
+        background-color: #E6F7FF;
+        border:1px solid #95D7FF;
+        border-radius: 5px;
+        padding:5px 20px;
+        .ftColor{
+            color:#1890FF ;
+            margin-right: 10px;
+        }
+    }
+}
+.department{
+    min-height:800px;
+    padding:20px;
+    display: flex;
+    .department-left{
+        background: #eee;
+        min-width:230px;
+        min-height: 500px;
+        padding:0px 10px;
+        .ant-tree li{
+            padding: 6px 0;
+        }
+    }
+    .department-right{
+        width: 85%;
+        padding: 0 10px;
+        .batch-add{
+            width:100%;
+            text-align: right;
+            margin-bottom: 15px;
+        }
+    }
+    .ant-tree.ant-tree-show-line li span.ant-tree-switcher{
+        background: #eee;
+    }
+    
+    .node-title{
+        .anticon{
+            padding:5px 4px;
+        }
+        .anticon:hover{
+            background: rgb(70, 160, 245);
+        }
+        .ant-btn-sm{
+            margin: 4px 0px 0px 8px;
+        }
+        .active{color:#1890ff;}
+    } 
+    .add-btn{
+        text-align: right;border: solid 1px #eee;
+        padding: 14px;
+        width: 100%;
+        margin-top: 10px;
+    }
+    .ant-tree li .ant-tree-node-content-wrapper{
+        height: 32px;
+        .ant-input{
+            height: 30px;padding: 0px 10px;
+        }
+        .ant-form-item-control{
+            line-height: 32.9999px;
+        }
+    }
+    .ant-tree li .ant-tree-node-content-wrapper:hover{
+        background: none;
+    }
+    .ant-tree li .ant-tree-node-content-wrapper.ant-tree-node-selected{
+        background: none;
+    }
+}
+// 批量导入
+.add-salary-main{
+    .salary-form{
+        margin-top: 10px;padding: 10px 0;
+        background-color: #fff;min-height: 300px;
+    }
+    .salary-btns{
+        text-align: left;margin-top: 40px;margin-left: 14%;
+    }
+}
+.salary-modal{
+    width: 60% !important;
+    .salary-table{
+        text-align: center;width:96%;margin:0 auto;
+        th{color: #4a4a4a;background-color: #eee;}
+        th,td{padding:4px 6px;}
+    }
+}
+.breadcrumb{
+    background: #fff;padding: 10px;width: 100%;margin-bottom: 6px;
+}
+
+.teacher-detail-info .ant-form-item-control{
+    width: 200px;
+}
+.teacher-detail-info input{
+    width: 200px;
+}
+.bottom-row .ant-form-item-control{
+    width: 100%;
+}
+.item-list{
+    padding-bottom: 20px;
+}
+.vote-modal-row{
+    padding: 10px 0;
+}

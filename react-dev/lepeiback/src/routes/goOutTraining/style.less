@@ -1,0 +1,86 @@
+.content-main{
+    width: 100%;
+    padding: 10px;
+    margin: 0 auto;
+    background-color: #fff;
+    border-radius: 8px;
+} 
+.content-form {
+    width: 100%;
+    padding: 10px 20px;
+}
+// 培训列表  
+.goOut-train{
+    .text{
+        max-width: 250px;
+        overflow: hidden;
+        white-space: nowrap;
+        text-overflow: ellipsis;
+        display: inline-block;
+    }
+}
+// 培训详情
+.train-detail{
+    .breadcrumb{
+        background: #fff;
+        padding: 10px;width: 100%;
+        margin-bottom: 6px;
+    }
+    .title{
+        font-weight: bold;
+        padding: 0 3px;
+        margin: 10px 20px 12px 0;
+        border-left: solid #1890ff 5px;
+        display: inline-block;
+    }
+    .info{
+        display: flex;
+        height:120px;
+        flex-wrap: wrap;
+        align-items: center;
+        font-size: 16px;
+        p{
+            width:33%;
+            padding-left: 10%;
+        }
+    }
+    .main{
+        width:80%;
+        font-size: 16px;
+        margin:10px auto;
+        p{
+            margin:10px 0;
+        }
+        .theme{
+            display: flex;
+            p{
+                &:last-child{
+                    width:93%;
+                    word-break: break-all;
+                }
+                
+            }
+        }
+        .pic{
+            display: flex;
+            span{
+                text-indent: 31px;
+            }
+            .imgs{
+                width:94%;
+                img{
+                  width:30%;
+                  margin-right: 10px;
+                }
+            }
+        }
+    }
+    .btn{
+        display: flex;
+        height:50px;
+        flex-direction: row-reverse;
+        align-items: center;
+        margin:30px 0;
+    }
+   
+}

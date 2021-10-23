@@ -1,0 +1,476 @@
+.none {
+  display: none;
+}
+.block {
+  display: block;
+}
+.inlineblock {
+  display: inline-block;
+}
+.ftColor {
+  color: #1890FF;
+}
+.cursor {
+  cursor: pointer;
+}
+.asterisk {
+  color: #f00;
+  margin: 5px;
+}
+.content-main {
+  width: 100%;
+  padding: 15px;
+  margin: 0 auto;
+  background-color: #fff;
+  border-radius: 8px;
+}
+.content-main .ant-btn {
+  margin-top: 8px;
+}
+.content-main .content-form {
+  padding-bottom: 10px;
+}
+.content-main .content-table {
+  padding-top: 0;
+}
+.content-main .content-table .make-box {
+  color: #1890ff;
+}
+.content-main .content-table .make-box .check-btn {
+  padding: 5px 10px 5px 0px;
+}
+.content-main .intro .text {
+  max-width: 600px;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  display: inline-block;
+}
+.detail-main {
+  padding-bottom: 50px;
+}
+.detail-main .textNum {
+  width: 100%;
+  text-align: right;
+}
+.detail-main .detail-title {
+  font-weight: bold;
+  padding: 0 6px;
+  margin: 10px 0 20px 0;
+  border-left: solid #1890ff 5px;
+  display: inline-block;
+}
+.detail-main .information {
+  display: flex;
+}
+.detail-main .information .information-left {
+  width: 26%;
+  padding-top: 5%;
+}
+.detail-main .information .information-left .ant-avatar {
+  width: 120px;
+  height: 120px;
+  display: block;
+  margin: 40px auto 30px;
+}
+.detail-main .information .information-left .ant-upload.ant-upload-select {
+  text-align: center;
+  display: block;
+}
+.detail-main .information .information-right {
+  width: 74%;
+  padding: 20px;
+}
+.detail-main .information .information-right .ant-form-item-label {
+  text-align: left;
+  padding-left: 20px;
+}
+.detail-main .department-main {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  flex-flow: wrap;
+}
+.detail-main .department-main .department-item {
+  width: 48%;
+  margin: 10px 0;
+}
+.detail-main .department-main .department-item .department-content {
+  background-color: #fff;
+  min-height: 200px;
+  border-radius: 8px;
+  width: 100%;
+  padding: 20px 10%;
+}
+.detail-main .department-main .department-item .department-content-all {
+  background-color: #fff;
+  min-height: 200px;
+  border-radius: 8px;
+  width: 100%;
+  padding: 20px 10%;
+}
+.detail-main .department-main .department-item2 {
+  width: 100%;
+  margin: 10px 0;
+}
+.detail-main .department-main .department-item2 .department-content {
+  background-color: #fff;
+  min-height: 200px;
+  border-radius: 8px;
+  width: 100%;
+  padding: 20px 10%;
+}
+.detail-main .department-main .department-item2 .department-content-all {
+  background-color: #fff;
+  min-height: 200px;
+  border-radius: 8px;
+  width: 100%;
+  padding: 20px 10%;
+}
+.detail-main .department-main .department-item2 .item-con {
+  background-color: #fff;
+  border-radius: 8px;
+  width: 100%;
+  padding: 20px 0;
+}
+.detail-main .department-main .department-item2 .item-con .depart-text {
+  text-align: right;
+  color: #000;
+  padding-right: 0 !important;
+}
+.detail-main .department-main .department-item2 .item-con .depart-text p {
+  line-height: 32px;
+}
+.detail-main .department-main .department-item2 .item-con .depart-text p .star {
+  color: #f00;
+  margin-right: 3px;
+}
+.detail-main .department-main .ant-form-item-label {
+  text-align: left;
+  padding-left: 50px;
+}
+.detail-main .step-contents {
+  margin: 20px 0;
+  height: 200px;
+  overflow-y: scroll;
+}
+.detail-main .step-contents .ant-steps-dot .ant-steps-item-content {
+  width: 80%;
+}
+.detail-main .step-contents .ant-steps-item .ant-steps-item-icon > .ant-steps-icon .ant-steps-icon-dot {
+  background: rgba(0, 0, 0, 0.25);
+}
+.detail-main .step-contents .ant-steps-item > .ant-steps-item-tail:after {
+  background-color: rgba(0, 0, 0, 0.25);
+}
+.detail-main .step-contents .ant-steps-item > .ant-steps-item-content > .ant-steps-item-description {
+  color: rgba(0, 0, 0, 0.65);
+}
+.detail-main .step-contents .ant-steps-dot .ant-steps-item-process .ant-steps-item-icon {
+  width: 8px;
+  height: 8px;
+  line-height: 8px;
+}
+.detail-main .ant-input-group-addon {
+  min-width: 80px;
+}
+.class-detail .margin30 {
+  margin: 30px 0;
+}
+.class-detail .addBtn {
+  margin-left: 10px;
+}
+.class-detail .upload-box {
+  text-align: center;
+}
+.class-detail .class-intro {
+  margin-bottom: 20px;
+}
+.class-detail .class-intro .intro-title {
+  width: 10%;
+  padding: 0 !important;
+  text-align: right;
+  color: #000;
+}
+.class-detail .classTags .ant-form-item-label {
+  width: 14.5%;
+}
+.class-detail .classTags .ant-form-item-control-wrapper {
+  width: 85.5%;
+}
+.class-detail .btn {
+  background-color: #fff;
+  text-align: center;
+  padding: 15px 0;
+  position: absolute;
+  bottom: 0;
+  left: 220px;
+  right: 37px;
+  z-index: 99;
+}
+.teacher-detail .information-right .first .ant-calendar-picker {
+  width: 100%;
+}
+.teacher-detail .information-right .usin {
+  padding-right: 0 !important;
+}
+.teacher-detail .information-right .introduce .ant-form-item-control-wrapper {
+  width: 82%;
+}
+.teacher-detail .information-right .introduce .ant-form-item {
+  margin-bottom: 0;
+}
+.teacher-detail .information-right .tags-list {
+  width: 82%;
+  margin-left: 148px;
+  border: 1px solid #d9d9d9;
+  border-radius: 4px;
+  padding: 15px;
+}
+.teacher-detail .department-main .content {
+  background-color: #fff;
+  height: 150px;
+  border-radius: 8px;
+  width: 100%;
+  padding: 20px 0;
+}
+.teacher-detail .department-main .content .depart-text {
+  text-align: right;
+  color: #000;
+  padding-right: 0 !important;
+}
+.teacher-detail .department-main .content .depart-text p {
+  line-height: 32px;
+}
+.teacher-detail .department-main .content .depart-text p .star {
+  color: #f00;
+  margin-right: 3px;
+}
+.teacher-detail .belongClass {
+  display: flex;
+  flex-wrap: nowrap;
+}
+.teacher-detail .del-icon {
+  text-align: center;
+  padding: 10px;
+}
+.job-detail .information {
+  width: 100%;
+  padding-top: 30px;
+}
+.job-detail .information .teacher-form {
+  width: 80%;
+}
+.job-detail .information .teacher-form .jobInfo .ant-row {
+  margin-bottom: 0;
+}
+.job-detail .information .teacher-form .jobInfo .ant-row .ant-form-item-label {
+  width: 13.6%;
+}
+.job-detail .information .teacher-form .jobInfo .ant-row .ant-form-item-control-wrapper {
+  width: 76.3%;
+}
+.job-detail .authority {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  flex-flow: wrap;
+}
+.job-detail .authority .department-item {
+  width: 48%;
+  margin: 10px 0;
+}
+.job-detail .authority .department-item .department-content {
+  background-color: #fff;
+  min-height: 200px;
+  border-radius: 8px;
+  width: 100%;
+  padding: 20px 10%;
+}
+.job-detail .authority .dataAuth {
+  height: 318px;
+}
+.bf-container {
+  border: 1px solid #ccc;
+}
+.bf-container .bf-content {
+  height: 200px;
+}
+.job-persons {
+  height: 460px;
+  overflow-y: scroll;
+}
+.job-list {
+  text-align: center;
+}
+.job-list .ant-card-body {
+  padding: 10px;
+  position: relative;
+}
+.job-list .ant-card-body .anticon-close {
+  position: absolute;
+  top: 8px;
+  right: 8px;
+  color: #f00;
+}
+.job-list .ant-card-body .ant-avatar {
+  width: 70px;
+  height: 70px;
+  line-height: 70px;
+}
+.job-list .ant-card-body .job-name {
+  font-weight: bold;
+  padding: 10px;
+}
+.job-item-active .ant-card-bordered {
+  border: solid 1px #f00;
+}
+.add-tab {
+  border: dashed 1px #ccc;
+  padding: 6px 12px;
+  margin-top: 20px;
+  display: inline-block;
+}
+.student-close {
+  color: #fff;
+  background: #f00;
+  border-radius: 50%;
+  padding: 4px;
+  margin-top: 4px;
+}
+.go-manage {
+  margin-top: 20px;
+  border: solid 1px #ccc;
+  display: inline-block;
+  border-radius: 6px;
+  color: #ccc;
+  padding-left: 10px;
+  border-right: none;
+}
+.go-manage .last {
+  color: #fff;
+  background: #1890ff;
+  display: inline-block;
+  border-radius: 6px;
+  padding: 6px 10px;
+  margin-left: 10px;
+}
+.batchAdd-modal .ant-modal-body {
+  height: 700px;
+  overflow-y: auto;
+}
+.batchAdd-modal .selectNum {
+  margin-bottom: 15px;
+  width: 100%;
+  background-color: #E6F7FF;
+  border: 1px solid #95D7FF;
+  border-radius: 5px;
+  padding: 5px 20px;
+}
+.batchAdd-modal .selectNum .ftColor {
+  color: #1890FF;
+  margin-right: 10px;
+}
+.department {
+  min-height: 800px;
+  padding: 20px;
+  display: flex;
+}
+.department .department-left {
+  background: #eee;
+  min-width: 230px;
+  min-height: 500px;
+  padding: 0px 10px;
+}
+.department .department-left .ant-tree li {
+  padding: 6px 0;
+}
+.department .department-right {
+  width: 85%;
+  padding: 0 10px;
+}
+.department .department-right .batch-add {
+  width: 100%;
+  text-align: right;
+  margin-bottom: 15px;
+}
+.department .ant-tree.ant-tree-show-line li span.ant-tree-switcher {
+  background: #eee;
+}
+.department .node-title .anticon {
+  padding: 5px 4px;
+}
+.department .node-title .anticon:hover {
+  background: #46a0f5;
+}
+.department .node-title .ant-btn-sm {
+  margin: 4px 0px 0px 8px;
+}
+.department .node-title .active {
+  color: #1890ff;
+}
+.department .add-btn {
+  text-align: right;
+  border: solid 1px #eee;
+  padding: 14px;
+  width: 100%;
+  margin-top: 10px;
+}
+.department .ant-tree li .ant-tree-node-content-wrapper {
+  height: 32px;
+}
+.department .ant-tree li .ant-tree-node-content-wrapper .ant-input {
+  height: 30px;
+  padding: 0px 10px;
+}
+.department .ant-tree li .ant-tree-node-content-wrapper .ant-form-item-control {
+  line-height: 32.9999px;
+}
+.department .ant-tree li .ant-tree-node-content-wrapper:hover {
+  background: none;
+}
+.department .ant-tree li .ant-tree-node-content-wrapper.ant-tree-node-selected {
+  background: none;
+}
+.add-salary-main .salary-form {
+  margin-top: 10px;
+  padding: 10px 0;
+  background-color: #fff;
+  min-height: 300px;
+}
+.add-salary-main .salary-btns {
+  text-align: left;
+  margin-top: 40px;
+  margin-left: 14%;
+}
+.salary-modal {
+  width: 60% !important;
+}
+.salary-modal .salary-table {
+  text-align: center;
+  width: 96%;
+  margin: 0 auto;
+}
+.salary-modal .salary-table th {
+  color: #4a4a4a;
+  background-color: #eee;
+}
+.salary-modal .salary-table th,
+.salary-modal .salary-table td {
+  padding: 4px 6px;
+}
+.breadcrumb {
+  background: #fff;
+  padding: 10px;
+  width: 100%;
+  margin-bottom: 6px;
+}
+.teacher-detail-info .ant-form-item-control {
+  width: 200px;
+}
+.teacher-detail-info input {
+  width: 200px;
+}
+.bottom-row .ant-form-item-control {
+  width: 100%;
+}

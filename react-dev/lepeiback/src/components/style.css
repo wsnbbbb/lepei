@@ -1,0 +1,166 @@
+.top {
+  width: 100%;
+  margin: 0px auto 20px;
+  padding: 10px;
+  border-bottom: solid 1px #ddd;
+}
+.sectionTag {
+  padding: 10px;
+}
+.sectionTag h3 {
+  border-left: 4px solid #3492e9;
+  padding-left: 4px;
+}
+.bottom-btns {
+  margin: 10px auto;
+  padding: 16px 20px;
+  text-align: right;
+  position: fixed;
+  bottom: -10px;
+  left: 220px;
+  right: 37px;
+  background: #fff;
+}
+.common-bottom-btns {
+  background: #fff;
+  position: fixed;
+  bottom: 0;
+  left: 220px;
+  right: 37px;
+  text-align: right;
+  padding: 16px 20px;
+  z-index: 10000;
+  border-top: solid 2px #eee;
+}
+.common-bottom-btns .submit-btn {
+  display: block;
+  text-align: center;
+}
+.anticon-minus-circle-o {
+  color: #f00;
+}
+.page-main {
+  display: flex;
+  text-align: right;
+  padding: 16px 10px 10px;
+}
+.page-main .page-left {
+  display: inline-block;
+  width: 20%;
+  text-align: left;
+  line-height: 32px;
+}
+.page-main .content-page {
+  display: block;
+  width: 80%;
+}
+.minWidth-page span {
+  line-height: 50px;
+}
+.preview-wrapper {
+  position: fixed;
+  top: 0;
+  left: 0;
+  background: rgba(0, 0, 0, 0.6);
+  z-index: 9999999999999;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.preview-wrapper .icon-icon-test31 {
+  position: fixed;
+  top: 60px;
+  right: 60px;
+  color: #ffffff;
+  font-size: 40px;
+  margin-right: 0;
+  cursor: pointer;
+}
+.preview-wrapper .img-container {
+  width: 1px;
+  height: 1px;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+}
+.preview-wrapper .img-container .image {
+  position: absolute;
+  cursor: pointer;
+}
+.preview-wrapper .origin-image {
+  position: relative;
+  z-index: -1;
+  visibility: hidden;
+}
+.preview-wrapper .operate-con {
+  position: fixed;
+  bottom: 10%;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+  width: 400px;
+  height: 70px;
+  background-color: #37474f;
+  border-radius: 100px;
+  opacity: 0.8;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 55px;
+  box-sizing: border-box;
+}
+.preview-wrapper .operate-con .operate-btn {
+  width: 40px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+.preview-wrapper .operate-con .operate-btn .iconfont {
+  color: #ffffff;
+  font-size: 15px;
+  margin-right: 0;
+}
+.preview-wrapper .operate-con .operate-btn span {
+  color: white;
+  font-size: 12px;
+  margin-top: 15px;
+}
+.preview-wrapper.show {
+  display: flex;
+}
+.preview-wrapper.hide {
+  display: none;
+}
+.g-layout-title {
+  height: 220px!important;
+  line-height: 40px;
+  box-sizing: border-box;
+  padding-top: 30px;
+  background-color: #0a284a;
+}
+.g-layout-title .logo-school {
+  width: 80px;
+  height: 80px;
+  display: block;
+  margin: 0 auto;
+  border-radius: 50%;
+}
+.g-layout-title h2 {
+  font-size: 16px;
+  color: #fff;
+  margin-top: 8px;
+}
+.g-layout-title h4 {
+  font-size: 14px;
+  color: #fff;
+  line-height: 20px;
+  padding: 0 8px;
+}
+.cropper-wrap .cutterBox {
+  margin-top: 20px;
+}
+.cropper-wrap .button {
+  margin: 20px 0 0 360px;
+}

@@ -1,0 +1,166 @@
+.content-main {
+  width: 100%;
+  padding: 10px;
+  margin: 0 auto;
+  background-color: #fff;
+  border-radius: 8px;
+}
+.title {
+  border-left: 4px solid #1890FF;
+  padding-left: 10px;
+}
+.margin10{
+  margin: 10px 0 10px 10px !important;
+}
+.fileList-li:hover{
+  opacity: 0.5;
+}
+.fileList-li{
+  width: 100%;
+  display: flex;
+  align-items: center;
+  span{
+    margin:0 5px;
+  }
+  .close{
+    cursor: pointer;
+    margin-top: 4px;
+    color:#f00;
+  }
+}
+
+// 自定义类型管理-添加/编辑
+.customTypeDetail {
+  .ant-btn {
+    margin-top: 4px !important;
+  }
+  .grade-content {
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    display: inline-block;
+    max-width: 220px;
+  }
+  .main-content {
+    padding: 20px 0;
+    .ant-row {
+      padding: 10px 0;
+    }
+    .anticon-close-circle {
+      font-size: 18px;
+      color: red;
+      vertical-align: middle;
+    }
+    .anticon-up-circle,.anticon-down-circle {
+      font-size: 18px;
+      color: #1890FF;
+      vertical-align: middle;
+    }
+  }
+}
+// 教师数据审核
+.teacher-data-audit {
+  .ant-form-item-label{
+    width: 100%;
+    text-align: left;
+  }
+  .inputs{
+    display: flex !important;
+    margin-top: 5px;
+  }
+  .unfold{
+    color:#1890FF;
+    cursor: pointer;
+  }
+  .ant-calendar-picker{
+    width:100% !important;
+  }
+  h2{
+    border-left: 6px solid #00abeb;
+    padding-left: 5px;
+    margin-top: 10px;
+    margin-left: 10px;
+  }
+  
+}
+// 个人数据审核
+.single-data-audit {
+  .itemCol{
+    height: 180px;
+    overflow-y: auto;
+  }
+  .ant-calendar-picker{
+    width:100% !important;
+  }
+  .title{
+    margin-bottom: 20px;
+    font-weight: bold;
+  }
+  .auditProgress{
+    margin-top:10px;
+    padding:20px 30px;
+    border-radius: 4px;
+  }
+  .reasons{
+    width:210px;
+    text-align: left;
+  }
+  .detail{
+    padding:20px 30px;
+    border-radius: 4px;
+    .unfold{
+      color:#1890FF;
+      cursor: pointer;
+    }
+    .titleBox{
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      border-bottom: 2px dashed #CECECE;
+    }
+    .applyForm{
+      margin:15px 0;
+    }
+  }
+  .personInfo{
+    margin:5px 0;
+    .infoBox{
+      padding-left: 15px;
+      .infoTitle{
+        font-weight: bold;
+        border-left: 2px solid #1890FF;
+        padding-left: 10px;
+        margin:15px 0;
+      }
+    }
+  }
+}
+// 退回原因弹框
+.reasonForm{
+  margin-top: 30px;
+}
+.statics-box{
+    padding: 12px;
+    overflow: hidden;
+    li{
+      min-width: 100px;
+      height: 40px;
+      background-color: #e5f2ff;
+      border: 1px solid #43a3ff;
+      line-height: 40px;
+      text-align: center;
+      max-width: 120px;
+      float: left;
+      margin-right: 10px;
+      color: #43a3ff;
+      cursor: pointer;
+      
+    }
+    li:hover{
+      opacity: 0.8;
+    }
+    .recall{
+      color: #f965b3;
+    }
+
+}

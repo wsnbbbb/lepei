@@ -1,0 +1,342 @@
+//列表页
+.content-main{
+    width: 100%;
+    padding: 10px;
+    margin: 0 auto;
+    background-color: #fff;
+    border-radius: 8px;
+    .ant-btn{
+        margin-top:8px; 
+    }
+    // .antd-form .antd-row .antd-form-item{
+        // padding: 0px;
+    // }
+    .content-table{
+        padding-top: 0;
+        .make-box{
+            color: #1890ff;
+            .check-btn{
+                padding: 5px 10px 5px 0px;
+            }
+        }
+    }
+}
+//详情页
+.detail-main{
+    padding-bottom: 50px;
+    .detail-title{
+        font-weight: bold;
+        padding: 0 3px;
+        margin: 10px 20px 12px 0;
+        border-left: solid #1890ff 5px;
+        display: inline-block;
+    }
+    .information{
+        display: flex;
+        .information-left{
+            width: 26%;padding-top:5%;
+            .ant-avatar{
+                width:120px;height: 120px;display: block;margin: 40px auto 30px;
+            }
+            .ant-upload.ant-upload-select{
+                text-align: center;display: block;
+            }
+        }
+        .information-right{
+            width: 74%;
+            .ant-form-item-label{
+                text-align: right;padding-right: 16px;
+            }
+        }
+    }
+    .department-main{
+        width: 100%;
+        display: flex;
+        justify-content:space-between;
+        flex-flow: wrap;
+        margin-top: 20px;
+        .department-item{
+            width: 48%;
+            margin: 10px 0;
+            
+            .department-content{
+                background-color: #fff;
+                min-height: 200px;
+                border-radius: 8px;
+                width: 100%;
+                padding: 20px 10%;
+            }
+        }
+    }
+    
+    .step-contents{
+        margin-top: 20px;
+        width: 48%;
+        height:200px;
+        overflow-y: scroll;
+        .ant-steps-dot .ant-steps-item-content{
+            width: 80%;
+        }
+        .ant-steps-item .ant-steps-item-icon > .ant-steps-icon .ant-steps-icon-dot{
+            background:rgba(0,0,0,.25)
+        }
+        .ant-steps-item > .ant-steps-item-tail:after{
+            background-color: rgba(0,0,0,.25);
+        }
+        .ant-steps-item > .ant-steps-item-content > .ant-steps-item-description{
+            color: rgba(0, 0, 0, 0.65);
+        }
+        .ant-steps-dot .ant-steps-item-process .ant-steps-item-icon{
+            width: 8px;
+            height: 8px;
+            line-height: 8px;
+        }
+    }
+    .ant-input-group-addon{min-width: 80px;}
+}
+//职务详情
+.job-persons{
+    height: 460px;
+    overflow-y: scroll;
+}
+.job-list{
+    text-align: center;
+    .ant-card-body{
+        padding: 10px;position: relative;
+        .anticon-close{
+            position: absolute;
+            top: 8px;
+            right: 8px;
+            color: #f00;
+        }
+        .ant-avatar{
+            width: 70px;height: 70px;line-height: 70px;
+        }
+        .job-name{font-weight: bold;padding: 10px; }
+    }
+}
+.job-item-active{
+    .ant-card-bordered{
+        border:solid 1px #f00;
+    }
+}
+// 学生详情
+.add-tab{
+    border: dashed 1px #ccc;padding: 6px 12px;margin-top: 20px;display: inline-block;
+}
+.student-close{
+    color: #fff;
+    background: #f00;
+    border-radius: 50%;
+    padding: 4px;margin-top:4px;                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   
+}
+.go-manage{
+    margin-top: 20px;
+    border: solid 1px #ccc;
+    display: inline-block;
+    border-radius: 6px;
+    color: #ccc;
+    padding-left: 10px;
+    border-right: none;
+    .last{
+        color: #fff;
+        background: #1890ff;
+        display: inline-block;
+        border-radius: 6px;
+        padding: 6px 10px;
+        margin-left: 10px;
+    }
+}
+// 部门管理
+.department{
+    min-height:800px;padding:20px;
+    .department-left{
+        background: #eee;min-height: 500px;padding:0px 10px;
+        .ant-tree li{
+            padding: 6px 0;
+        }
+    }
+    .department-right{
+        width: 70%;
+        padding: 0 10px;
+    }
+    .ant-tree.ant-tree-show-line li span.ant-tree-switcher{
+        background: #eee;
+    }
+    
+    .node-title{
+        .anticon{
+            padding:5px 4px;
+        }
+        .anticon:hover{
+            background: rgb(70, 160, 245);
+        }
+        .ant-btn-sm{
+            margin: 4px 0px 0px 8px;
+        }
+        .active{color:#1890ff;}
+    } 
+    .add-btn{
+        text-align: right;border: solid 1px #eee;
+        padding: 14px;
+        width: 100%;
+        margin-top: 10px;
+    }
+    .ant-tree li .ant-tree-node-content-wrapper{
+        height: 32px;
+        .ant-input{
+            height: 30px;padding: 0px 10px;
+        }
+        .ant-form-item-control{
+            line-height: 32.9999px;
+        }
+    }
+    .ant-tree li .ant-tree-node-content-wrapper:hover{
+        background: none;
+    }
+    .ant-tree li .ant-tree-node-content-wrapper.ant-tree-node-selected{
+        background: none;
+    }
+}
+.breadcrumb{
+    background: #fff;padding: 10px;width: 100%;margin-bottom: 6px;
+}
+.red{
+    color: #ff0000;
+}
+.detail-title{
+    font-weight: bold;
+    padding: 0 3px;
+    margin: 10px 20px 12px 0;
+    border-left: solid #1890ff 5px;
+    display: inline-block;
+}
+.bind-box{
+    position: relative;
+    margin-top: 13px;
+    img{
+        width: 80px;
+        height: 80px;
+        display: block;
+        border-radius: 50%;
+    }
+    p{
+        height: 30px;
+        line-height: 30px;
+    }
+    .bind-name{
+        font-weight: 700;
+    }
+    .del-btn{
+        position: absolute;
+        left: 80px;
+        top: 0px;
+        color: #ff0000;
+        font-size: 20px;
+        cursor: pointer;
+    }
+}
+.btn-box{
+    margin-top: 50px;
+    width: 100%;
+    background: #fff;
+    height: 60px;
+    position: relative;
+    margin-bottom: 50px;
+    .btn-cancel{
+        position: absolute;
+        right: 100px;
+        top: 14px;
+    }
+    .btn-submit{
+        position: absolute;
+        right: 20px;
+        top: 14px;
+    }
+}
+.mt50{
+    margin-top: 50px;
+}
+.row-item{
+    padding: 10px 0;
+}
+.item-head{
+    border: 1px solid #e8e8e8;
+    background: #FAFAFA;
+    border-left: 0;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    .items>span{
+        font-weight: 700;
+        color: #000;
+    }
+}
+.items{
+    float: left;
+    display: inline-block;
+    padding: 5px 10px;
+    .check-icon{
+        width: 16px;
+        height: 16px;
+        display: inline-block;
+        background: #fff;
+        vertical-align: middle;
+        position: relative;
+        border:1px solid #d9d9d9;
+        box-sizing: border-box;
+        border-radius: 2px;
+        transition: all .3s;
+    }
+    span{
+        vertical-align: middle;
+        cursor: pointer;
+    }
+
+}
+.items:hover{
+    .check-icon{
+        border:1px solid #1890FF;
+    }
+}
+.checked{
+    .check-icon{
+        background: #1890FF;
+        border:1px solid #1890FF;
+    }
+    .check-icon::after{
+        content: "";
+        position: absolute;
+        display: table;
+        width: 5px;
+        height: 9px;
+        border: 2px solid #fff;
+        border-top: 0;
+        border-left: 0;
+        top: 50%;
+        left: 22%;
+        transform: rotate(45deg) scale(1) translate(-50%, -50%);
+    }
+}
+.item-main{
+    .row-item{
+        border-bottom: 1px solid #e8e8e8;
+    }
+    .items-left{
+        font-weight: 700;
+        color: #000;
+    }
+}
+.access-part{
+   padding: 50px 40px;
+}
+.checkbox-item{
+    margin-bottom: 60px;
+}
+.account-manage{
+    .ant-btn{
+        margin-top: 3px!important;
+    }
+}
+.add-account-modal{
+    padding-left: 80px;
+}

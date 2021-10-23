@@ -1,0 +1,107 @@
+.content-main{
+    width: 100%;
+    padding: 30px 20px;
+    margin: 0 auto;
+    background-color: #fff;
+    border-radius: 8px;
+}
+.text{
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    display: inline-block;
+    width:200px;
+}
+.choice{
+    .ant-select-selection{
+        border:none;
+    }
+}
+.show{
+    display: block;
+}
+.hide{
+    display: none;
+}
+.imgs{
+    display: flex;
+    div{
+        width:300px;
+        margin-right: 10px;
+        img{
+            width:100%;
+        }
+    }
+}
+.border{
+    border: 1px solid red;
+}
+.none{
+    border:none
+}
+// 留言管理
+.msg-manage{
+    display: flex;
+    .menu{
+        width:400px;
+        height:650px;
+        overflow-y:auto;
+        border:2px solid #F6F6F6;
+        border-radius: 8px;
+        padding:10px 0 30px 0;
+        margin-right: 10px;
+        h4{
+            border-bottom: 2px solid #F6F6F6;
+            padding-left:10px;
+            height: 40px;
+            line-height: 40px;
+        }
+        .content{
+            padding:0 10px;
+            .bgColor{
+                background-color: #E6F7FF;
+            }
+            .article{
+                border-bottom: 2px solid #F6F6F6;
+                padding: 10px;
+                .title{
+                    margin-bottom: 20px;
+                }
+                .info{
+                    span{
+                        margin-right: 50px;
+                        &:nth-child(2){
+                            border-right: 2px solid #F6F6F6;
+                            padding-right: 10px;
+                        }
+                        &:last-child{
+                            margin-right: 0;
+                        }
+                    }
+                }
+            }
+        }
+    }
+    .message{
+        width:100%;
+    }
+}
+.msgInfo{
+    display: flex;
+    // align-content: center;
+    .img{
+        width:11%;
+        img{
+            width:40px;
+            height:40px;
+            border-radius: 50%;
+            margin-right: 10px;
+        }
+    }
+    .user{
+        color:#A7A7A7;
+    }
+}
+.bf-container {
+    border:1px solid #ccc;
+}

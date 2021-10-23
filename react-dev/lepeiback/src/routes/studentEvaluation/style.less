@@ -1,0 +1,659 @@
+//列表页
+.content-main{
+    width: 100%;
+    padding: 10px;
+    margin: 0 auto;
+    background-color: #fff;
+    border-radius: 8px;
+    .ant-btn{
+        margin-top:8px; 
+    }
+    // .antd-form .antd-row .antd-form-item{
+        // padding: 0px;
+    // }
+    .content-table{
+        padding-top: 0;
+        .make-box{
+            color: #1890ff;
+            .check-btn{
+                padding: 5px 10px 5px 0px;
+            }
+        }
+    }
+    margin-bottom: 50px;
+}
+.evaluation{
+    .ant-row{
+        padding: 10px 0;
+    }
+}
+//详情页
+.detail-main{
+    padding-bottom: 50px;
+    .detail-title{
+        font-weight: bold;
+        padding: 0 3px;
+        margin: 10px 20px 12px 0;
+        border-left: solid #1890ff 5px;
+        display: inline-block;
+    }
+    .information{
+        display: flex;
+        .information-left{
+            width: 26%;padding-top:5%;
+            .ant-avatar{
+                width:120px;height: 120px;display: block;margin: 40px auto 30px;
+            }
+            .ant-upload.ant-upload-select{
+                text-align: center;display: block;
+            }
+        }
+        .information-right{
+            width: 74%;
+            .ant-form-item-label{
+                text-align: right;padding-right: 16px;
+            }
+        }
+    }
+    .department-main{
+        width: 100%;
+        display: flex;
+        justify-content:space-between;
+        flex-flow: wrap;
+        margin-top: 20px;
+        .department-item{
+            width: 48%;
+            margin: 10px 0;
+            
+            .department-content{
+                background-color: #fff;
+                min-height: 200px;
+                border-radius: 8px;
+                width: 100%;
+                padding: 20px 10%;
+            }
+        }
+    }
+    
+    .step-contents{
+        margin-top: 20px;
+        width: 48%;
+        height:200px;
+        overflow-y: scroll;
+        .ant-steps-dot .ant-steps-item-content{
+            width: 80%;
+        }
+        .ant-steps-item .ant-steps-item-icon > .ant-steps-icon .ant-steps-icon-dot{
+            background:rgba(0,0,0,.25)
+        }
+        .ant-steps-item > .ant-steps-item-tail:after{
+            background-color: rgba(0,0,0,.25);
+        }
+        .ant-steps-item > .ant-steps-item-content > .ant-steps-item-description{
+            color: rgba(0, 0, 0, 0.65);
+        }
+        .ant-steps-dot .ant-steps-item-process .ant-steps-item-icon{
+            width: 8px;
+            height: 8px;
+            line-height: 8px;
+        }
+    }
+    .ant-input-group-addon{min-width: 80px;}
+}
+//职务详情
+.job-persons{
+    height: 460px;
+    overflow-y: scroll;
+}
+.job-list{
+    text-align: center;
+    .ant-card-body{
+        padding: 10px;position: relative;
+        .anticon-close{
+            position: absolute;
+            top: 8px;
+            right: 8px;
+            color: #f00;
+        }
+        .ant-avatar{
+            width: 70px;height: 70px;line-height: 70px;
+        }
+        .job-name{font-weight: bold;padding: 10px; }
+    }
+}
+.job-item-active{
+    .ant-card-bordered{
+        border:solid 1px #f00;
+    }
+}
+// 学生详情
+.add-tab{
+    border: dashed 1px #ccc;padding: 6px 12px;margin-top: 20px;display: inline-block;
+}
+.student-close{
+    color: #fff;
+    background: #f00;
+    border-radius: 50%;
+    padding: 4px;margin-top:4px;                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   
+}
+.go-manage{
+    margin-top: 20px;
+    border: solid 1px #ccc;
+    display: inline-block;
+    border-radius: 6px;
+    color: #ccc;
+    padding-left: 10px;
+    border-right: none;
+    .last{
+        color: #fff;
+        background: #1890ff;
+        display: inline-block;
+        border-radius: 6px;
+        padding: 6px 10px;
+        margin-left: 10px;
+    }
+}
+// 部门管理
+.department{
+    min-height:800px;padding:20px;
+    .department-left{
+        background: #eee;min-height: 500px;padding:0px 10px;
+        .ant-tree li{
+            padding: 6px 0;
+        }
+    }
+    .department-right{
+        width: 70%;
+        padding: 0 10px;
+    }
+    .ant-tree.ant-tree-show-line li span.ant-tree-switcher{
+        background: #eee;
+    }
+    
+    .node-title{
+        .anticon{
+            padding:5px 4px;
+        }
+        .anticon:hover{
+            background: rgb(70, 160, 245);
+        }
+        .ant-btn-sm{
+            margin: 4px 0px 0px 8px;
+        }
+        .active{color:#1890ff;}
+    } 
+    .add-btn{
+        text-align: right;border: solid 1px #eee;
+        padding: 14px;
+        width: 100%;
+        margin-top: 10px;
+    }
+    .ant-tree li .ant-tree-node-content-wrapper{
+        height: 32px;
+        .ant-input{
+            height: 30px;padding: 0px 10px;
+        }
+        .ant-form-item-control{
+            line-height: 32.9999px;
+        }
+    }
+    .ant-tree li .ant-tree-node-content-wrapper:hover{
+        background: none;
+    }
+    .ant-tree li .ant-tree-node-content-wrapper.ant-tree-node-selected{
+        background: none;
+    }
+}
+.breadcrumb{
+    background: #fff;padding: 10px;width: 100%;margin-bottom: 6px;
+}
+.red{
+    color: #ff0000;
+}
+.detail-title{
+    font-weight: bold;
+    padding: 0 3px;
+    margin: 10px 20px 12px 0;
+    border-left: solid #1890ff 5px;
+    display: inline-block;
+}
+.bind-box{
+    position: relative;
+    margin-top: 13px;
+    img{
+        width: 80px;
+        height: 80px;
+        display: block;
+        border-radius: 50%;
+    }
+    p{
+        height: 30px;
+        line-height: 30px;
+    }
+    .bind-name{
+        font-weight: 700;
+    }
+    .del-btn{
+        position: absolute;
+        left: 80px;
+        top: 0px;
+        color: #ff0000;
+        font-size: 20px;
+        cursor: pointer;
+    }
+}
+.btn-box{
+    margin-top: 50px;
+    width: 100%;
+    background: #fff;
+    height: 60px;
+    position: relative;
+    .btn-cancel{
+        position: absolute;
+        right: 100px;
+        top: 14px;
+    }
+    .btn-submit{
+        position: absolute;
+        right: 20px;
+        top: 14px;
+    }
+}
+.mt50{
+    margin-top: 50px;
+}
+.row-item{
+    padding: 10px 0;
+}
+.item-head{
+    border: 1px solid #e8e8e8;
+    background: #FAFAFA;
+    border-left: 0;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    .items>span{
+        font-weight: 700;
+        color: #000;
+    }
+}
+.items{
+    float: left;
+    display: inline-block;
+    padding: 5px 10px;
+    .check-icon{
+        width: 16px;
+        height: 16px;
+        display: inline-block;
+        background: #fff;
+        vertical-align: middle;
+        position: relative;
+        border:1px solid #d9d9d9;
+        box-sizing: border-box;
+        border-radius: 2px;
+        transition: all .3s;
+    }
+    span{
+        vertical-align: middle;
+        cursor: pointer;
+    }
+
+}
+.items:hover{
+    .check-icon{
+        border:1px solid #1890FF;
+    }
+}
+.checked{
+    .check-icon{
+        background: #1890FF;
+        border:1px solid #1890FF;
+    }
+    .check-icon::after{
+        content: "";
+        position: absolute;
+        display: table;
+        width: 5px;
+        height: 9px;
+        border: 2px solid #fff;
+        border-top: 0;
+        border-left: 0;
+        top: 50%;
+        left: 22%;
+        transform: rotate(45deg) scale(1) translate(-50%, -50%);
+    }
+}
+.item-main{
+    .row-item{
+        border-bottom: 1px solid #e8e8e8;
+    }
+    .items-left{
+        font-weight: 700;
+        color: #000;
+    }
+}
+.access-part{
+   padding: 50px 40px;
+}
+.checkbox-item{
+    margin-bottom: 60px;
+}
+.main{
+    padding: 50px 20px;
+}
+.checkbox-wrap{
+    display: inline-block;
+    vertical-align: top;
+    margin-left: 126px;
+}
+.btn-wrap{
+    text-align: center;
+
+}
+.tips{
+    text-indent: 10.7em;
+    padding-top: 5px;
+    font-size: 12px;
+    color: rgb(177, 177, 177);
+}
+.ant-checkbox-group-item{
+    margin: 5px 0;
+    margin-right: 15px;
+    width: 200px;
+}
+.checkbox-title{
+    position: absolute;
+}
+.btn-box1{
+    text-align: left;
+}
+.content-essential{
+    .ant-table-fixed-left table, .ant-table-fixed-right table{
+        width: 105px;
+    }
+    .color-green{
+        color: #1890ff;
+    }
+    .ant-input-number{
+        width: 60px;
+    }
+    .info{
+        margin-top: 50px;
+        thead{
+            background: #FAFAFA;
+            border: 1px solid #EBEBEB;
+            td{
+                font-weight: 700;
+                font-size: 16px;
+            }
+        }
+        td{
+            padding: 10px; 
+        }
+    }
+    .anticon-star{
+        color: #FADB14;
+    }
+    .input-group{
+        position: relative;
+        padding-right: 20px;
+        margin: 5px 0;
+        .anticon-close{
+            position: absolute;
+            right: 0px;
+            top: 50%;
+            margin-top: -7px;
+            cursor: pointer;
+        }
+        .anticon-close:hover{
+            color: #ff0000;
+        }
+    }
+    .input-number-box{
+        width: 120px;
+    }
+}
+.essential-manage{
+    .table-content{
+        margin-top: 10px;
+    }
+    .anticon-star{
+        color: #FADB14;
+    }
+    .table-wrap{
+        thead{
+            border: 1px solid #EBEBEB;
+            background: #FAFAFA;
+            font-weight: 700;
+            color: #272727;
+        }
+        tbody{
+            td{
+                border: 1px solid #ebebeb;
+            }
+            tr:first-child{
+                td{
+                    border-top: none;
+                }
+            }
+        }
+        tr{
+            td{
+                padding: 5px 10px;
+            }
+          
+        }
+    }
+    .total-star{
+        text-align: right;
+        padding-right: 30px;
+    }
+}
+.essential-box{
+    display: inline-block;
+    width: 379px;
+    vertical-align: top;
+    .input-item{
+        margin-bottom: 10px;
+        input{
+            vertical-align: middle;
+        }
+        .anticon-plus-circle{
+            font-size: 24px;
+            vertical-align: middle;
+            cursor: pointer;
+        }
+        .anticon-minus-circle{
+            font-size: 24px;
+            color: #FF3B30;
+            vertical-align: middle;
+            cursor: pointer;
+        }
+    }
+}
+.edit-box label{
+    vertical-align: top;
+}
+.edit-box textarea{
+    vertical-align: top;
+}
+.student-evaluation{
+    .point-wrap{
+        min-height: 700px;
+    }
+    .point-box{
+        float: left;
+        left: 0;
+        top: 0;
+        width:310px;
+        min-height: 620px;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+        .anticon-star{
+            color: #FADB14;
+        }
+        .ant-table-pagination{
+            padding-right: 10px;
+        }
+    }
+    .point-detail{
+        float: left;
+        margin-left: 20px;
+        width: 320px;
+        min-height: 620px;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+        .title{
+            height: 54px;
+            line-height: 54px;
+            padding-left: 25px;
+            border-bottom: 1px solid #ccc;
+            span{
+                border-left: 2px solid #5AB0EE;
+            }
+        }
+        li{
+            padding: 10px 5px;
+            border-bottom: 1px solid #ccc;
+            p{
+                text-align: right;
+
+            }
+            .arr-wrap{
+                position: relative;
+                .anticon-right{
+                    position: absolute;
+                    right: 5px;
+                    top: 50%;
+                    margin-top: -7px;
+                    cursor: pointer;
+                }
+            }
+            .imgs-wrap{
+                overflow: hidden;
+                li{
+                    float: left;
+                    padding: 5px;
+                    border-bottom: none;
+                    .comment-imgs{
+                        width:92px;
+                        height: 92px;
+                        display: block;
+                        object-fit: cover;
+                    }
+                }
+            }
+           
+        }
+    }
+    .graph-wrap{
+        float: left;
+        width: 540px;
+        margin-left: 20px;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+        min-height: 620px;
+        .title{
+            height: 54px;
+            line-height: 54px;
+            padding-left: 25px;
+            border-bottom: 1px solid #ccc;
+            span{
+                border-left: 2px solid #5AB0EE;
+            }
+        }
+        .circle-box{
+            overflow: hidden;
+            border-bottom: 1px solid #ccc;
+            .circle-box-left{
+                float: left;
+                width: 330px;
+                border-right: 1px solid #ccc;
+                .anticon-star{
+                    color: #FADB14;
+                }
+                .circle-box-left-graph{
+                    height: 170px;
+                }
+                .ant-col-12{
+                    text-align: center;
+                }
+            }
+            .circle-box-right1{
+                .anticon-star{
+                    color: #FADB14;
+                }
+                p{
+                    margin-top: 100px;
+                    text-align: center;
+                }
+            }
+            .circle-box-right{
+                float: left;
+                width: 200px;
+                h4{
+                    text-align: center;
+                    color: #C7C7C7;
+                }
+                ul{
+                    margin-top: 20px;
+                    overflow: auto;
+                    height: 250px;
+                    li{
+                        float: left;
+                        width: 50%;
+                        text-align: center;
+                        .head-img{
+                            width: 70px;
+                            height: 70px;
+                            display: block;
+                            border-radius: 50%;
+                            margin: 0 auto;
+                        }
+                        p{
+                            text-align: center;
+                        }
+                    }
+                }
+            }
+        }
+        .rank-wrap{
+            .title{
+                border-bottom: none;
+            }
+            span{
+                border-left: 2px solid #5AB0EE;
+            }
+            ul{
+                li{
+                   .ant-col-4{
+                       text-align: center;
+                       .index-icon{
+                            border-left: none;
+                       }
+                   }
+                }
+                li:nth-child(1), li:nth-child(2), li:nth-child(3){
+                    .index-icon{
+                        display: inline-block;
+                        width:20px;
+                        height: 20px;
+                        border-radius: 50%;
+                        background: #314659;
+                        border-left: none;
+                        color: #fff;
+                   }
+                }
+            }
+        }
+    }
+}
+
+.student-evaluation{
+    .des-content{
+        overflow: hidden;
+        white-space: nowrap;
+        text-overflow: ellipsis;
+        display: inline-block;
+        width: 200px;
+    }
+}

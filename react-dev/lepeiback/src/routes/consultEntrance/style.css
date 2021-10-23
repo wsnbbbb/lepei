@@ -1,0 +1,246 @@
+.consultRegister .content-main,
+.visitRegister .content-main,
+.visit-detail .content-main,
+.entranceApply .content-main,
+.entranceApplyDetail .content-main,
+.customTable .content-main,
+.CustomTableDetail .content-main {
+  width: 100%;
+  padding: 15px;
+  margin: 0 auto;
+  background-color: #fff;
+  border-radius: 8px;
+}
+.consultRegister .content-main .content-form,
+.visitRegister .content-main .content-form,
+.visit-detail .content-main .content-form,
+.entranceApply .content-main .content-form,
+.entranceApplyDetail .content-main .content-form,
+.customTable .content-main .content-form,
+.CustomTableDetail .content-main .content-form {
+  padding-bottom: 10px;
+}
+.consultRegister .content-main .content-form .ant-form-item,
+.visitRegister .content-main .content-form .ant-form-item,
+.visit-detail .content-main .content-form .ant-form-item,
+.entranceApply .content-main .content-form .ant-form-item,
+.entranceApplyDetail .content-main .content-form .ant-form-item,
+.customTable .content-main .content-form .ant-form-item,
+.CustomTableDetail .content-main .content-form .ant-form-item {
+  margin-bottom: 0;
+}
+.consultRegister .content-main .content-table,
+.visitRegister .content-main .content-table,
+.visit-detail .content-main .content-table,
+.entranceApply .content-main .content-table,
+.entranceApplyDetail .content-main .content-table,
+.customTable .content-main .content-table,
+.CustomTableDetail .content-main .content-table {
+  padding-top: 0;
+}
+.consultRegister .content-main .content-table .make-box,
+.visitRegister .content-main .content-table .make-box,
+.visit-detail .content-main .content-table .make-box,
+.entranceApply .content-main .content-table .make-box,
+.entranceApplyDetail .content-main .content-table .make-box,
+.customTable .content-main .content-table .make-box,
+.CustomTableDetail .content-main .content-table .make-box {
+  color: #1890ff;
+}
+.consultRegister .content-main .content-table .make-box .check-btn,
+.visitRegister .content-main .content-table .make-box .check-btn,
+.visit-detail .content-main .content-table .make-box .check-btn,
+.entranceApply .content-main .content-table .make-box .check-btn,
+.entranceApplyDetail .content-main .content-table .make-box .check-btn,
+.customTable .content-main .content-table .make-box .check-btn,
+.CustomTableDetail .content-main .content-table .make-box .check-btn {
+  padding: 5px 10px 5px 0px;
+}
+.consultRegister .content-main .ftColor,
+.visitRegister .content-main .ftColor,
+.visit-detail .content-main .ftColor,
+.entranceApply .content-main .ftColor,
+.entranceApplyDetail .content-main .ftColor,
+.customTable .content-main .ftColor,
+.CustomTableDetail .content-main .ftColor {
+  color: #1890FF;
+}
+.consultRegister .content-main .cursor,
+.visitRegister .content-main .cursor,
+.visit-detail .content-main .cursor,
+.entranceApply .content-main .cursor,
+.entranceApplyDetail .content-main .cursor,
+.customTable .content-main .cursor,
+.CustomTableDetail .content-main .cursor {
+  cursor: pointer;
+}
+.visit-detail .content-main h3,
+.entranceApplyDetail .content-main h3 {
+  border-left: 6px solid #00abeb;
+  padding-left: 5px;
+  margin-top: 20px;
+  margin-left: 10px;
+}
+.visit-detail #printBox,
+.entranceApplyDetail #printBox {
+  padding: 20px;
+}
+.visit-detail #printBox .basicData,
+.entranceApplyDetail #printBox .basicData {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  padding: 20px;
+}
+.visit-detail #printBox .basicData .basicData-item,
+.entranceApplyDetail #printBox .basicData .basicData-item {
+  width: 30%;
+}
+.visit-detail #printBox .basicData .item-key,
+.entranceApplyDetail #printBox .basicData .item-key,
+.visit-detail #printBox .basicData .item-value,
+.entranceApplyDetail #printBox .basicData .item-value {
+  font-size: 14px;
+  color: #4a4a4a;
+  margin: 10px 0;
+}
+.visit-detail #printBox .basicData .item-key,
+.entranceApplyDetail #printBox .basicData .item-key {
+  color: #000;
+}
+.visit-detail #printBox .basicData1,
+.entranceApplyDetail #printBox .basicData1 {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 20px;
+  padding-top: 0;
+}
+.visit-detail #printBox .basicData1 .basicData-item,
+.entranceApplyDetail #printBox .basicData1 .basicData-item {
+  width: 33%;
+  padding-left: 20px;
+  padding-top: 20px;
+}
+.visit-detail #printBox .basicData1 .basicData-item2,
+.entranceApplyDetail #printBox .basicData1 .basicData-item2 {
+  width: 100%;
+}
+.visit-detail #printBox .basicData1 .item-key,
+.entranceApplyDetail #printBox .basicData1 .item-key,
+.visit-detail #printBox .basicData1 .item-value,
+.entranceApplyDetail #printBox .basicData1 .item-value {
+  font-size: 14px;
+  color: #4a4a4a;
+  margin: 10px 0;
+}
+.visit-detail #printBox .basicData1 .item-key,
+.entranceApplyDetail #printBox .basicData1 .item-key {
+  color: #000;
+}
+.visit-detail #printBox .basicData1 .img-preview,
+.entranceApplyDetail #printBox .basicData1 .img-preview {
+  width: 20%;
+  margin: 20px;
+}
+.visit-detail #printBox .paddingTop,
+.entranceApplyDetail #printBox .paddingTop {
+  padding-top: 0px;
+}
+.visit-detail .feedback,
+.entranceApplyDetail .feedback {
+  margin-top: 20px;
+  margin-left: 20px;
+  width: 90%;
+}
+.visit-detail .feedback2,
+.entranceApplyDetail .feedback2 {
+  margin-top: 20px;
+  width: 90%;
+}
+.visit-detail .btn,
+.entranceApplyDetail .btn {
+  text-align: center;
+  padding: 10px;
+  margin-bottom: 20px;
+}
+.visit-detail .advice,
+.entranceApplyDetail .advice {
+  padding: 20px;
+  padding-bottom: 0;
+}
+.entranceApplyDetail .teacher-op {
+  padding: 20px;
+  padding-bottom: 0;
+}
+.entranceApplyDetail .teacher-op .operation {
+  padding: 20px;
+  padding-bottom: 0;
+}
+.entranceApplyDetail .teacher-op .operation .ant-form-item {
+  display: flex;
+  flex-direction: column;
+}
+.entranceApplyDetail .teacher-op .operation .ant-form-item-label {
+  text-align: left;
+}
+.entranceApplyDetail .teacher-op .handle-form {
+  padding-left: 20px;
+}
+.CustomTableDetail .baseInfo {
+  display: flex;
+}
+.CustomTableDetail .baseInfo .left {
+  width: 50%;
+  margin-right: 10%;
+}
+.CustomTableDetail .baseInfo .right {
+  width: 40%;
+}
+.CustomTableDetail .baseInfo .right .upload .ant-form-item-control {
+  padding-left: 20px;
+}
+.CustomTableDetail .baseInfo .right .upload .ant-form-item-control .img-box {
+  width: 100px;
+  height: 100px;
+  margin-bottom: 18px;
+}
+.CustomTableDetail .baseInfo .right .upload .ant-form-item-control .img-box img {
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+}
+.CustomTableDetail .main-content {
+  padding: 20px 10px;
+}
+.CustomTableDetail .main-content .ant-row {
+  padding: 10px 0;
+}
+.CustomTableDetail .main-content .anticon-close-circle {
+  font-size: 18px;
+  color: red;
+  vertical-align: middle;
+}
+.CustomTableDetail .main-content .anticon-up-circle,
+.CustomTableDetail .main-content .anticon-down-circle {
+  font-size: 18px;
+  color: #1890FF;
+  vertical-align: middle;
+}
+.CustomTableDetail .Checkbox {
+  padding-top: 5px;
+}
+.consult-drawer .btns {
+  text-align: right;
+  margin-top: 30px;
+}
+.visit-drawer .btns {
+  text-align: right;
+  margin-top: 30px;
+}
+.Checkbox .ant-row {
+  padding-top: 10px;
+}
+.parentSign {
+  width: 150px;
+  height: 150px;
+}

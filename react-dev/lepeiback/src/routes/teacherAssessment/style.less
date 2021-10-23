@@ -1,0 +1,159 @@
+.content-main{
+  width: 100%;
+  padding: 10px; 
+  margin: 0 auto;
+  background-color: #fff;
+  border-radius: 8px;
+}
+.teacher-assessment{
+  .score-box{
+    border: 2px solid #169dfe;
+    color: #169dfe;
+  }
+  .btn{
+    text-align: center;
+    padding: 10px;
+  }
+  .tip-name{
+    background-color: #f6ffed;
+    border: 2px solid #c7f0a7;
+    border-radius: 5px;
+    padding: 10px;
+  }
+  .tip-name2{
+    background-color: #fffbe6;
+    border: 2px solid #ffeba5;
+  }
+  .score-item{
+    border: 1px solid #ebebeb;
+    padding: 5px;
+    margin: 5px 0;
+  }
+  .img-preview{
+    width: 100px;
+    margin: 10px;
+  }
+}
+// 考核配置 - 添加/编辑
+.add-assess-drawer{
+  .ant-calendar-picker{
+    width:100%;
+  }
+  .linkLine{
+    width:20px;
+    text-align: center;
+    padding:0 !important;
+  }
+  .types{
+    min-height: 62px;
+    padding:10px 15px;
+    border:1px solid #e8e8e8;
+    border-radius: 4px;
+    .ant-tag{
+      line-height: 34px;
+      margin-right: 15px;
+    }
+  }
+  .btns{
+    text-align: right;
+    margin-top: 15px;
+  }
+}
+// 指标配置
+.target-config{
+  .target-name{
+    padding:10px 20px;
+    .ant-tag{
+      line-height: 32px;
+      font-size: 14px;
+    }
+  }
+  .main-box{
+    min-height:800px;
+    padding:20px;
+    display: flex;
+    .left-box{
+      background: #eee;
+      min-width:230px;
+      min-height: 500px;
+      padding:0px 10px;
+      .ant-tree li{
+        padding: 6px 0;
+      }
+      .node-title{
+        .anticon{
+            padding:5px 4px;
+        }
+        .anticon:hover{
+            background: rgb(70, 160, 245);
+        }
+        .ant-btn-sm{
+            margin: 4px 0px 0px 8px;
+        }
+        .active{color:#1890ff;}
+      }
+      .ant-tree li .ant-tree-node-content-wrapper{
+        height: 32px;
+        .ant-input{
+            height: 30px;padding: 0px 10px;
+        }
+        .ant-form-item-control{
+            line-height: 32.9999px;
+        }
+      }
+      .ant-tree li .ant-tree-node-content-wrapper:hover{
+        background: none;
+      }
+      .ant-tree li .ant-tree-node-content-wrapper.ant-tree-node-selected{
+        background: none;
+      }
+    }
+    .right-box{
+      width: 85%;
+      padding: 0 20px;
+      .remark{
+        line-height: 32px;
+        span{
+          color:#f00;
+        }
+      }
+      .questionsBox{
+        margin-top: 20px;
+        .questions{
+          border:1px solid #ccc;
+          margin-bottom: 10px;
+        }
+        .ant-form-item{
+          margin-bottom: 0 !important;
+        }
+        .ant-row{
+          margin-bottom: 15px;
+        }
+        .options{
+          display: flex;
+          align-items: center;
+          .ant-form-item{
+            margin-bottom: 0;
+          }
+          .ant-radio-group{
+            margin:0 15px;
+          }
+          .icon{
+            color: #f00;
+            font-size: 18px;
+          }
+        }
+        .add-btn{
+          text-align: center;
+          margin-bottom: 15px;
+        }
+        .copy{
+          text-align: right;
+        }
+      }
+    }
+    .ant-tree.ant-tree-show-line li span.ant-tree-switcher{
+      background: #eee;
+    }
+  }
+}
